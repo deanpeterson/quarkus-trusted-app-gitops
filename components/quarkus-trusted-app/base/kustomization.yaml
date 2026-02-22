@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  argocd/app-name: quarkus-trusted-app
+  janus-idp.io/tekton: quarkus-trusted-app
+  backstage.io/kubernetes-id: quarkus-trusted-app
+  backstage.io/kubernetes-namespace: rodan-demo 
+  app.kubernetes.io/part-of: quarkus-trusted-app
+resources:
+  - deployment.yaml
+  - route.yaml
+  - service.yaml
