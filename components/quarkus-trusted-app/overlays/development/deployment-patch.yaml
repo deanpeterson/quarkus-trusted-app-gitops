@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay-quay-quay-test.apps.salamander.aimlworkbench.com/deanpeterson/quarkus-trusted-app:f1523583b751c7ba0b5a6e575de4b4ed766347d3
+        - image: quay-quay-quay-test.apps.salamander.aimlworkbench.com/deanpeterson/quarkus-trusted-app:8dc69fd81ccd4edd8579adb23d856ecaeb95f02c
           name: container-image
